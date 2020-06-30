@@ -34,4 +34,24 @@
 
     </CalendarView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Your Time Slot"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_slots"
+        android:spinnerMode="dropdown"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"/>
+
 </LinearLayout>
